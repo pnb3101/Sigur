@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd"
+        logicalFilePath="path-independent">
+
+    <changeSet id="9606c3b4-5591-4d19-927e-51d5da00592e" author="author@unknown" runOnChange="true" failOnError="true">
+        <comment>Create and fill tables</comment>
+        <sqlFile path="scripts/2022-09-14--1-add-and-fill-tables.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8"/>
+    </changeSet>
+
+</databaseChangeLog>
