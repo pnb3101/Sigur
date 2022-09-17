@@ -1,9 +1,9 @@
-package services;
+package sigur.services;
 
-import entities.Department;
+import sigur.entities.Department;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import repository.DepartmentRepository;
+import sigur.repository.DepartmentRepository;
 
 import java.util.List;
 import java.util.Random;

@@ -1,6 +1,6 @@
-package repository;
+package sigur.repository;
 
-import entities.Department;
+import sigur.entities.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

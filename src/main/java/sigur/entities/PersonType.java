@@ -1,4 +1,4 @@
-package entities;
+package sigur.entities;
 
 public enum PersonType {
     EMPLOYEE,

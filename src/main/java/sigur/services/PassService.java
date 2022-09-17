@@ -1,12 +1,12 @@
-package services;
+package sigur.services;
 
-import entities.Employee;
-import entities.Guest;
+import sigur.entities.Employee;
+import sigur.entities.Guest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import repository.EmployeeRepository;
-import repository.GuestRepository;
+import sigur.repository.EmployeeRepository;
+import sigur.repository.GuestRepository;
 
 import java.time.Duration;
 import java.time.OffsetDateTime;

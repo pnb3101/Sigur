@@ -1,12 +1,12 @@
-package components;
+package sigur.components;
 
-import entities.Employee;
+import sigur.entities.Employee;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
-import services.GuestService;
-import util.TimeConstants;
+import sigur.services.GuestService;
+import sigur.util.TimeConstants;
 
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;

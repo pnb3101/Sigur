@@ -1,4 +1,4 @@
-package components;
+package sigur.components;
 
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;
