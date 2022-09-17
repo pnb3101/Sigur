@@ -1,4 +1,4 @@
-package sigur.entities;
+package entities;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,12 +10,15 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Getter
-@Setter
-public class Department {
+public class Person {
     @Id
     @NotNull
-    private Integer id;
+    @Setter
+    protected Integer id;
 
-    @Size(max = 32)
-    private String name;
+    @Size(max = 16)
+    @Setter
+    protected byte[] card;
+
+    protected PersonType type;
 }

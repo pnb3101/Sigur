@@ -1,11 +1,13 @@
-package sigur.components;
+package components;
 
+import lombok.Getter;
 import lombok.NonNull;
+import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import sigur.util.TimeConstants;
+import util.TimeConstants;
 
 import java.time.OffsetDateTime;
 

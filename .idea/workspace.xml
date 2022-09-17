@@ -4,30 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8852dea8-6ae5-46d9-a2e7-ec0f5bc2c181" name="Changes" comment="test task for junior">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sigur/SigurApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appTest/SigurAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SigurApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/EmployeesMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/components/EmployeesMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/GuestMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/components/GuestMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/PassEmulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/components/PassEmulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/TimeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/components/TimeEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/TimeMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/components/TimeMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/entities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/entities/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/PersonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/entities/PersonType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/repository/DepartmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/GuestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/repository/GuestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/services/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/GuestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/services/GuestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/PassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/services/PassService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/TimeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sigur/util/TimeConstants.java" afterDir="false" />
+    <list default="true" id="8852dea8-6ae5-46d9-a2e7-ec0f5bc2c181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SigurApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/EmployeesMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/GuestMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/PassEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/TimeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/components/TimeMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/PersonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/PassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TimeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/v.0.0/changelog-cumulative.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/v.0.0/scripts/2022-09-14--1-add-and-fill-tables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +75,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SigurApplication">
+  <component name="RunManager">
     <configuration name="MainTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainTestClass" />
       <module name="Sigur" />
@@ -75,16 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SigurApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sigur.SigurApplication" />
-      <module name="Sigur" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SigurApplication" />
         <item itemvalue="Application.MainTestClass" />
       </list>
     </recent_temporary>
@@ -98,14 +98,6 @@
       <option name="presentableId" value="Default" />
       <updated>1663076191886</updated>
     </task>
-    <task id="LOCAL-00001" summary="test task for junior">
-      <created>1663235273243</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663235273243</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,20 +110,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test task for junior" />
-    <option name="LAST_COMMIT_MESSAGE" value="test task for junior" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sigur/SigurApplication.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

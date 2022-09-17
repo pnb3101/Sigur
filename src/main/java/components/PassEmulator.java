@@ -1,10 +1,10 @@
-package sigur.components;
+package components;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
-import sigur.services.PassService;
+import services.PassService;
 
 import java.util.Random;
 

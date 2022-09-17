@@ -27,5 +27,4 @@ create table if not exists person
     hire_time     timestamp,
     visit_time    timestamp,
     department_id integer constraint reference_department references department,
-    employee_id   integer constraint reference_employee references person
 );

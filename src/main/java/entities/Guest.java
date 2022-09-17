@@ -1,4 +1,4 @@
-package sigur.entities;
+package entities;
 
 import lombok.Getter;
 import lombok.Setter;

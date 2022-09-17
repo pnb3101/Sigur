@@ -1,21 +1,20 @@
-package sigur.components;
+package components;
 
-import lombok.AllArgsConstructor;
-import sigur.entities.Employee;
+import entities.Employee;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
-import sigur.services.DepartmentService;
-import sigur.services.EmployeeService;
-import sigur.util.TimeConstants;
+import services.DepartmentService;
+import services.EmployeeService;
+import util.TimeConstants;
 
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Random;
 
 @Component
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class EmployeesMgr implements ApplicationListener<TimeEvent> {
     private final DepartmentService departmentService;
     private final EmployeeService employeeService;

@@ -1,4 +1,4 @@
-package sigur.util;
+package util;
 
 import java.time.Month;
 import java.time.OffsetDateTime;
